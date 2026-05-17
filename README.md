@@ -47,7 +47,6 @@ Professional DevOps Engineer with 3+ years of AWS experience, 2+ years of Terraf
 
 - **LinkedIn**: [solomon‑wakhungu‑2712791bb](https://www.linkedin.com/in/solomon-wakhungu-2712791bb/)
 - **Website**: [solomonwakhungu.vercel.app](https://solomonwakhungu.vercel.app/)
-- **GitHub**: [@1solomonwakhungu](https://github.com/1solomonwakhungu)
 
 ---
 
