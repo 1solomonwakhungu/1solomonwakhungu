@@ -20,8 +20,14 @@ Professional DevOps Engineer with 3+ years of AWS experience, 2+ years of Terraf
 
 ## 📊 GitHub Activity
 
-![Solomon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=1solomonwakhungu&show_icons=true&theme=dark&hide_title=true&count_private=true&include_all_commits=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1solomonwakhungu&layout=compact&theme=dark&exclude_repo=1solomonwakhungu,Linear-Alegbra&langs_count=8)
+
+
+<!-- GitHub stats are currently served by reliable services (github-readme-stats is down) -->
+
+![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=1solomonwakhungu&theme=github_dark)
+![GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=1solomonwakhungu&theme=dark)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=1solomonwakhungu&theme=github_dark&exclude=1solomonwakhungu,Linear-Alegbra)
+
 
 ## 🏆 Featured Projects
 
