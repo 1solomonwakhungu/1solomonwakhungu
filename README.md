@@ -20,8 +20,8 @@ Professional DevOps Engineer with 3+ years of AWS experience, 2+ years of Terraf
 
 ## 📊 GitHub Activity
 
-![Solomon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=1solomonwakhungu&show_icons=true&theme=radical&hide_title=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1solomonwakhungu&layout=compact&theme=radical)
+![Solomon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=1solomonwakhungu&show_icons=true&theme=dark&hide_title=true&count_private=true&include_all_commits=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1solomonwakhungu&layout=compact&theme=dark&exclude_repo=1solomonwakhungu,Linear-Alegbra&langs_count=8)
 
 ## 🏆 Featured Projects
 
@@ -46,8 +46,8 @@ Professional DevOps Engineer with 3+ years of AWS experience, 2+ years of Terraf
 ## 📫 Connect
 
 - **LinkedIn**: [solomon‑wakhungu‑2712791bb](https://www.linkedin.com/in/solomon-wakhungu-2712791bb/)
-- **Email**: solowak@gmail.com
 - **Website**: [solomonwakhungu.vercel.app](https://solomonwakhungu.vercel.app/)
+- **GitHub**: [@1solomonwakhungu](https://github.com/1solomonwakhungu)
 
 ---
 
