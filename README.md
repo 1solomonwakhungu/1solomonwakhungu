@@ -1,56 +1,30 @@
-# Solomon Wakhungu | Senior DevOps Engineer
+# Solomon Wakhungu
 
-> **Cloud Infrastructure • Terraform • Kubernetes • AWS • Go**
+Senior DevOps / Platform Engineer focused on secure cloud infrastructure, Terraform automation, Kubernetes platforms, and Go-based tooling.
 
-Professional DevOps Engineer with 3+ years of AWS experience, 2+ years of Terraform, and 1+ year of Go development. Currently building scalable cloud platforms at **Credera** (Senior SWE) with previous experience at **Aviatrix** implementing secure hybrid‑cloud solutions.
+Currently working on:
+- Homelab platform automation with Terraform, Proxmox, GitOps, observability, and backup/recovery patterns.
+- Practical cloud networking and security examples from AWS, Kubernetes, and Aviatrix work.
+- CLI/developer-productivity tools that make infrastructure work easier to inspect and operate.
 
-## 🔧 Core Stack
+## Core Work
 
-**Cloud & Infrastructure**
-- **AWS** (3+ years): EC2, EKS, VPC, IAM, S3, Lambda, CloudFormation
-- **Terraform** (2+ years): Modular IaC, multi‑cloud provisioning, Terraform Cloud
-- **Kubernetes**: EKS/AKS deployments, Helm, GitOps (Flux/ArgoCD)
-- **Docker**: Containerization, Docker Compose, registry management
+- Cloud infrastructure: AWS, VPC/IAM/EKS, networking, security, Linux
+- Infrastructure as Code: Terraform modules, validation, linting, docs generation, CI quality gates
+- Kubernetes/platform: Helm, GitOps, ingress, secrets, monitoring, deployment workflows
+- Tools: Go, TypeScript, Python, Bash, Docker, GitHub Actions/GitLab CI
 
-**Languages & Tools**
-- **Go** (1+ year): CLI tools, microservices, concurrent systems
-- **Python**: Automation scripts, data processing, backend APIs
-- **Linux/Shell**: System administration, bash scripting, CI/CD pipelines
-- **GitLab CI / GitHub Actions**: Automated testing and deployment
+## Featured Projects
 
-## 📊 GitHub Activity
+| Project | Why It Matters |
+|---|---|
+| [homelab-core](https://github.com/1solomonwakhungu/homelab-core) | Core homelab services for routing, logging, alerting, and operational visibility. |
+| [homeserver-infra](https://github.com/1solomonwakhungu/homeserver-infra) | Terraform-managed Proxmox/home-server infrastructure with reusable environment patterns. |
+| [gronify](https://github.com/1solomonwakhungu/gronify) | CLI for inspecting and searching large JSON from the terminal and VS Code. |
+| [typst-dev-container](https://github.com/1solomonwakhungu/typst-dev-container) | Reproducible dev container for document build workflows with CI/release automation. |
+| [aviatrix-secure-hybrid-cloud](https://github.com/1solomonwakhungu/aviatrix-secure-hybrid-cloud) | Multi-cloud secure networking module/demo using Terraform and Aviatrix patterns. |
 
-![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=1solomonwakhungu&theme=github_dark)
-![GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=1solomonwakhungu&theme=dark)
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=1solomonwakhungu&theme=github_dark&exclude=1solomonwakhungu,Linear-Alegbra)
+## Contact
 
-## 🏆 Featured Projects
-
-> *Pinned repositories showcase production‑grade DevOps and cloud engineering*
-
-- **[aviatrix‑secure‑hybrid‑cloud](https://github.com/1solomonwakhungu/aviatrix-secure-hybrid-cloud)** – Terraform module for multi‑cloud (AWS/Azure/GCP) secure networking with Aviatrix transit backbone.
-- **[background‑agents](https://github.com/1solomonwakhungu/background-agents)** – Open‑source autonomous coding agent system with Modal sandboxing and GitHub integration.
-- **[gronify](https://github.com/1solomonwakhungu/gronify)** – High‑performance CLI tool for flattening and searching large JSON files (TypeScript).
-- **[terraform‑aws‑eks‑blueprints](https://github.com/1solomonwakhungu/terraform-aws-eks-blueprints)** – Production‑ready Terraform module for EKS with GitOps and security best practices.
-- **[go‑cloud‑cli](https://github.com/1solomonwakhungu/go-cloud-cli)** – Go CLI tool for AWS/Azure resource management and cost analysis.
-- **[kubernetes‑gitops‑flux](https://github.com/1solomonwakhungu/kubernetes-gitops-flux)** – Complete GitOps workflow with Flux v2, sealed‑secrets, and multi‑environment deployment.
-
-## 🎯 Professional Focus
-
-**Current priorities:**
-1. **Debt elimination sprint** (P0) – Target: Sep 30, 2026
-2. **High‑income consulting** (P1) – Targeting $150‑200/hr DevOps roles via Toptal/Arc
-3. **FAANG‑level preparation** (P3) – Systems design and large‑scale infrastructure
-
-**Open to:** Consulting engagements, contract DevOps roles, and open‑source collaboration.
-
-## 📫 Connect
-
-- **LinkedIn**: [solomon‑wakhungu‑2712791bb](https://www.linkedin.com/in/solomon-wakhungu-2712791bb/)
-- **Website**: [solomonwakhungu.vercel.app](https://solomonwakhungu.vercel.app/)
-
----
-
-> *"Infrastructure as code isn't just automation—it's the blueprint for scalable, resilient systems."*
-
-*Profile updated: May 2026*
+- LinkedIn: https://www.linkedin.com/in/solomon-wakhungu-2712791bb/
+- Website: https://solomonwakhungu.vercel.app/
