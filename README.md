@@ -1,5 +1,7 @@
 # Solomon Wakhungu
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/1solomonwakhungu/badge.svg)](https://hub.xerj.org/contributors/1solomonwakhungu)
+
 Senior DevOps / Platform Engineer focused on secure cloud infrastructure, Terraform automation, Kubernetes platforms, and Go-based tooling.
 
 Currently working on:
