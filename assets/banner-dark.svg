@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-labelledby="t d">
+  <title id="t">Solomon Wakhungu</title>
+  <desc id="d">Senior Software Engineer at Credera. Cloud platforms, Kubernetes tooling, and infrastructure for AI agents.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <style>
+      .n { animation: p 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes p { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.25); } }
+      @media (prefers-reduced-motion: reduce) { .n { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="278" rx="14" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <rect x="56" y="56" width="56" height="4" rx="2" fill="url(#g)"/>
+  <text x="56" y="96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="2.5" fill="#58a6ff">SENIOR SOFTWARE ENGINEER AT CREDERA</text>
+  <text x="54" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#f0f6fc">Solomon Wakhungu</text>
+  <text x="56" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="22" fill="#9198a1">Cloud platforms, Kubernetes tooling, and infrastructure for AI agents.</text>
+  <text x="56" y="240" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#9198a1">Go · TypeScript · Python · Terraform · Kubernetes · AWS</text>
+  <g>
+    <polygon points="1010.0,54.0 1084.5,97.0 1084.5,183.0 1010.0,226.0 935.5,183.0 935.5,97.0" fill="none" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <line x1="1010" y1="140" x2="1010.0" y2="54.0" stroke="#30363d" stroke-width="1.5"/>
+    <line x1="1010" y1="140" x2="1084.5" y2="97.0" stroke="#30363d" stroke-width="1.5"/>
+    <line x1="1010" y1="140" x2="1084.5" y2="183.0" stroke="#30363d" stroke-width="1.5"/>
+    <line x1="1010" y1="140" x2="1010.0" y2="226.0" stroke="#30363d" stroke-width="1.5"/>
+    <line x1="1010" y1="140" x2="935.5" y2="183.0" stroke="#30363d" stroke-width="1.5"/>
+    <line x1="1010" y1="140" x2="935.5" y2="97.0" stroke="#30363d" stroke-width="1.5"/>
+    <circle class="n" style="animation-delay:0.0s" cx="1010.0" cy="54.0" r="9" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <circle class="n" style="animation-delay:0.5s" cx="1084.5" cy="97.0" r="9" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+    <circle class="n" style="animation-delay:1.0s" cx="1084.5" cy="183.0" r="9" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <circle class="n" style="animation-delay:1.5s" cx="1010.0" cy="226.0" r="9" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+    <circle class="n" style="animation-delay:2.0s" cx="935.5" cy="183.0" r="9" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <circle class="n" style="animation-delay:2.5s" cx="935.5" cy="97.0" r="9" fill="#161b22" stroke="#3fb950" stroke-width="2"/>
+    <circle cx="1010" cy="140" r="22" fill="#161b22" stroke="url(#g)" stroke-width="3"/>
+    <circle cx="1010" cy="140" r="7" fill="url(#g)"/>
+  </g>
+</svg>
