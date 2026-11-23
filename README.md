@@ -4,7 +4,7 @@
 </picture>
 
 <p>
-  <a href="https://solomonwakhungu.vercel.app/"><img src="https://img.shields.io/badge/Website-solomonwakhungu.vercel.app-1f6feb" alt="Website"></a>
+  <a href="https://harlo.dev/"><img src="https://img.shields.io/badge/Website-harlo.dev-1f6feb" alt="Website"></a>
   <a href="https://www.linkedin.com/in/solomon-wakhungu-2712791bb/"><img src="https://img.shields.io/badge/LinkedIn-Solomon%20Wakhungu-0A66C2" alt="LinkedIn"></a>
   <a href="https://github.com/1solomonwakhungu/homebrew-tap"><img src="https://img.shields.io/badge/Homebrew-1solomonwakhungu%2Ftap-FBB040?logo=homebrew&logoColor=black" alt="Homebrew Tap"></a>
   <a href="https://hub.xerj.org/contributors/1solomonwakhungu"><img src="https://hub.xerj.org/contributors/1solomonwakhungu/badge.svg" alt="XERJ Corpus Hub contributor"></a>
@@ -34,12 +34,12 @@ Zero-dependency local proxy that keeps Claude Code and Codex requests under a fi
 Local stdio MCP server for your own Google account covering 19 Google APIs (Gmail, Calendar, Drive, Tasks, YouTube, Analytics, Search Console, Photos, and more). Read-only by default, with per-product write opt-ins, a second opt-in for destructive tools, and Terraform for API enablement.
 
 **[runpod-vllm-deployer](https://github.com/1solomonwakhungu/runpod-vllm-deployer)** &nbsp;[![skills.sh](https://skills.sh/b/1solomonwakhungu/runpod-vllm-deployer)](https://skills.sh/1solomonwakhungu/runpod-vllm-deployer)<br>
-Python CLI for deploying OpenAI-compatible vLLM servers to RunPod GPUs (A40–B200). Plans offline, requires confirmation before billable creation or teardown, verifies readiness, and runs deterministic smoke tests.
+Python CLI for deploying OpenAI-compatible vLLM servers to RunPod GPUs (A40–B200). Plans offline, requires confirmation before billable creation or teardown, verifies readiness, and runs deterministic smoke tests. [Site](https://vllm.harlo.dev)
 
 ## Kubernetes & cloud platform
 
 **[kfleet](https://github.com/1solomonwakhungu/kfleet)** &nbsp;[![release](https://img.shields.io/github/v/release/1solomonwakhungu/kfleet)](https://github.com/1solomonwakhungu/kfleet/releases)<br>
-Read-only control plane for a fleet of Kubernetes clusters: a 14 MB Go hub with an embedded Primer React UI, SQLite operational timeline, drift checks, and a built-in read-only MCP server. Each cluster agent needs only three read rules and no central kubeconfigs. [Live demo](https://kfleet.sullylab.de) · [Site](https://kfleet-landing.vercel.app)
+Read-only control plane for a fleet of Kubernetes clusters: a 14 MB Go hub with an embedded Primer React UI, SQLite operational timeline, drift checks, and a built-in read-only MCP server. Each cluster agent needs only three read rules and no central kubeconfigs. [Live demo](https://kfleet.sullylab.de) · [Site](https://kfleet.harlo.dev)
 
 **[go-production-api-starter](https://github.com/1solomonwakhungu/go-production-api-starter)**<br>
 Production-oriented Go REST API reference: clean layered architecture, JWT auth, structured logging (`log/slog`), graceful shutdown, PostgreSQL, Kubernetes manifests, Terraform, and CI.
@@ -49,13 +49,13 @@ Production-oriented Go REST API reference: clean layered architecture, JWT auth,
 ## Developer tools
 
 **[gronify](https://github.com/1solomonwakhungu/gronify)** &nbsp;[![npm](https://img.shields.io/npm/v/gronify)](https://www.npmjs.com/package/gronify) [![downloads](https://img.shields.io/npm/dm/gronify)](https://www.npmjs.com/package/gronify) [![skills.sh](https://skills.sh/b/1solomonwakhungu/gronify)](https://skills.sh/1solomonwakhungu/gronify)<br>
-Streaming gron-style CLI on npm and Homebrew that flattens, searches, and unflattens gigabyte-scale JSON and JSON Lines with low memory use (1000 MiB flattened in 3.63 s at 65 MiB RSS). [Site](https://gronify.vercel.app)
+Streaming gron-style CLI on npm and Homebrew that flattens, searches, and unflattens gigabyte-scale JSON and JSON Lines with low memory use (1000 MiB flattened in 3.63 s at 65 MiB RSS). [Site](https://gronify.harlo.dev)
 
 **[discord-cli](https://github.com/1solomonwakhungu/discord-cli)** &nbsp;[![PyPI](https://img.shields.io/pypi/v/discordcli-agents)](https://pypi.org/project/discordcli-agents/) [![downloads](https://img.shields.io/pypi/dm/discordcli-agents)](https://pypi.org/project/discordcli-agents/) [![skills.sh](https://skills.sh/b/1solomonwakhungu/discord-cli)](https://skills.sh/1solomonwakhungu/discord-cli)<br>
 Headless, single-action Discord CLI for scripts, CI, and AI agents with ~50 commands, JSON output by default, a bundled man page, and an installable agent skill.
 
 **[typst-dev-container](https://github.com/1solomonwakhungu/typst-dev-container)** &nbsp;[![stars](https://img.shields.io/github/stars/1solomonwakhungu/typst-dev-container?style=flat)](https://github.com/1solomonwakhungu/typst-dev-container) [![skills.sh](https://skills.sh/b/1solomonwakhungu/typst-dev-container)](https://skills.sh/1solomonwakhungu/typst-dev-container)<br>
-Reproducible Typst + Pandoc + Rust dev container published to `ghcr.io` with automated CI toolchain updates for Docker, VS Code, and Codespaces.
+Reproducible Typst + Pandoc + Rust dev container published to `ghcr.io` with automated CI toolchain updates for Docker, VS Code, and Codespaces. [Site](https://typst.harlo.dev)
 
 **[openrig](https://github.com/1solomonwakhungu/openrig)**<br>
 Fork of OpenRig for local multi-agent coding topologies with native runtime adapters across 10+ coding CLIs, installable via Homebrew.
