@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Solomon Wakhungu. Senior Software Engineer at Credera. Cloud platforms, Kubernetes tooling, and infrastructure for AI agents." width="100%">
+  <img src="assets/banner-light.svg" alt="Solomon Wakhungu. Senior Software Engineer at Credera (ex-Amazon, Aviatrix). Upstream contributor to Terraform, Helm, and VictoriaMetrics. Creator of kFLEET, gronify, Tonal, and action-hub on harlo.dev." width="100%">
 </picture>
 
 <p>
@@ -10,7 +10,12 @@
   <a href="https://hub.xerj.org/contributors/1solomonwakhungu"><img src="https://hub.xerj.org/contributors/1solomonwakhungu/badge.svg" alt="XERJ Corpus Hub contributor"></a>
 </p>
 
-I'm a Senior Software Engineer at Credera building cloud platforms, Kubernetes operations, and CI/CD automation for enterprise teams. Outside of client work I build local-first open-source tooling in Go, TypeScript, and Python—focused on Kubernetes observability and practical infrastructure for AI agents—and send fixes upstream to the tools I depend on.
+**Solomon Wakhungu** is a Houston-based Senior Software Engineer at **Credera** (formerly **Amazon**, **Aviatrix**, and **Neurescence**) and the creator of **[harlo.dev](https://harlo.dev)**. He builds AWS and Kubernetes platforms, local-first developer tools in Go, TypeScript, and Python, and predictable AI agent infrastructure around MCP and vLLM.
+
+- **Upstream open source:** 16+ merged PRs across HashiCorp `terraform-provider-aws`, CNCF `helm/helm`, `VictoriaMetrics`, `openrig`, and Aviatrix Terraform modules.
+- **Systems & AI tooling:** Creator of [kFLEET](https://kfleet.harlo.dev) (14 MB Go multi-cluster Kubernetes control plane + MCP server), [gronify](https://gronify.harlo.dev) (1,000 MiB JSON flattened in 3.63s at 65 MiB RSS), [action-hub](https://github.com/1solomonwakhungu/action-hub) (10,000 tools and 5,000 skills indexed in ~600 baseline tokens), [Tonal](https://tonal.harlo.dev) (editorial UI design system), and [discord-cli](https://github.com/1solomonwakhungu/discord-cli) (89 headless commands across 20 groups).
+- **Production scale:** Built an Amazon Alexa skill serving 407,000+ monthly requests on AWS Lambda, S3, and DynamoDB; automated 4-cloud (AWS, GCP, Azure, OCI) infrastructure in Go and Terraform at Aviatrix; maintained a scientific imaging platform serving 5,000+ researchers and 130,000+ images at Neurescence.
+- **Background & credentials:** Computer Science at The University of Texas at Dallas · Databricks Certified Data Engineer Professional · 5 live apps on [harlo.dev](https://harlo.dev).
 
 ## Merged upstream
 
@@ -28,28 +33,31 @@ I'm a Senior Software Engineer at Credera building cloud platforms, Kubernetes o
 Indexed, on-demand meta-MCP layer that replaces eager tool-schema bloat with a single cache-stable search/load/execute tool (~600 baseline tokens vs. millions for large fleets). Load-tested at 44 MCP servers, 10,000 tools, and 5,000 skills. [Explainer](https://1solomonwakhungu.github.io/action-hub/)
 
 **[contexto](https://github.com/VentureForgre/contexto)** &nbsp;[![release](https://img.shields.io/github/v/release/VentureForgre/contexto)](https://github.com/VentureForgre/contexto/releases)<br>
-Zero-dependency local proxy that keeps Claude Code and Codex requests under a fixed token bound by paging older turns to disk verbatim and exposing MCP search tools to recall them—with reproducible recall and cost benchmarks.
+Zero-dependency local proxy that keeps Claude Code and Codex requests under a fixed token bound by paging older turns to disk verbatim and exposing MCP search tools to recall them, with reproducible recall and cost benchmarks.
 
 **[googlemcp](https://github.com/1solomonwakhungu/googlemcp)**<br>
 Local stdio MCP server for your own Google account covering 19 Google APIs (Gmail, Calendar, Drive, Tasks, YouTube, Analytics, Search Console, Photos, and more). Read-only by default, with per-product write opt-ins, a second opt-in for destructive tools, and Terraform for API enablement.
 
 **[runpod-vllm-deployer](https://github.com/1solomonwakhungu/runpod-vllm-deployer)** &nbsp;[![skills.sh](https://skills.sh/b/1solomonwakhungu/runpod-vllm-deployer)](https://skills.sh/1solomonwakhungu/runpod-vllm-deployer)<br>
-Python CLI for deploying OpenAI-compatible vLLM servers to RunPod GPUs (A40–B200). Plans offline, requires confirmation before billable creation or teardown, verifies readiness, and runs deterministic smoke tests. [Site](https://vllm.harlo.dev)
+Python CLI for deploying OpenAI-compatible vLLM servers to RunPod GPUs (A40-B200). Plans offline, requires confirmation before billable creation or teardown, verifies readiness, and runs deterministic smoke tests. [Site](https://vllm.harlo.dev)
 
 ## Kubernetes & cloud platform
 
 **[kfleet](https://github.com/1solomonwakhungu/kfleet)** &nbsp;[![release](https://img.shields.io/github/v/release/1solomonwakhungu/kfleet)](https://github.com/1solomonwakhungu/kfleet/releases)<br>
-Read-only control plane for a fleet of Kubernetes clusters: a 14 MB Go hub with an embedded Primer React UI, SQLite operational timeline, drift checks, and a built-in read-only MCP server. Each cluster agent needs only three read rules and no central kubeconfigs. [Live demo](https://kfleet.sullylab.de) · [Site](https://kfleet.harlo.dev)
+Read-only control plane for a fleet of Kubernetes clusters: a 14 MB Go hub with an embedded Primer React UI, SQLite operational timeline, drift checks, and a built-in read-only MCP server. Each cluster agent needs only three read rules and no central kubeconfigs. [Site](https://kfleet.harlo.dev)
 
 **[go-production-api-starter](https://github.com/1solomonwakhungu/go-production-api-starter)**<br>
 Production-oriented Go REST API reference: clean layered architecture, JWT auth, structured logging (`log/slog`), graceful shutdown, PostgreSQL, Kubernetes manifests, Terraform, and CI.
 
 **AWS Terraform modules:** [terraform-aws-private-llm](https://github.com/1solomonwakhungu/terraform-aws-private-llm) (Ollama + Open WebUI + Caddy auto-TLS), [terraform-aws-eks](https://github.com/1solomonwakhungu/terraform-aws-eks), [terraform-aws-vpc](https://github.com/1solomonwakhungu/terraform-aws-vpc), and [terraform-aws-ecs-fargate](https://github.com/1solomonwakhungu/terraform-aws-ecs-fargate).
 
-## Developer tools
+## Developer tools & design systems
 
 **[gronify](https://github.com/1solomonwakhungu/gronify)** &nbsp;[![npm](https://img.shields.io/npm/v/gronify)](https://www.npmjs.com/package/gronify) [![downloads](https://img.shields.io/npm/dm/gronify)](https://www.npmjs.com/package/gronify) [![skills.sh](https://skills.sh/b/1solomonwakhungu/gronify)](https://skills.sh/1solomonwakhungu/gronify)<br>
-Streaming gron-style CLI on npm and Homebrew that flattens, searches, and unflattens gigabyte-scale JSON and JSON Lines with low memory use (1000 MiB flattened in 3.63 s at 65 MiB RSS). [Site](https://gronify.harlo.dev)
+Streaming gron-style CLI on npm and Homebrew that flattens, searches, and unflattens gigabyte-scale JSON and JSON Lines with low memory use (1,000 MiB flattened in 3.63 s at 65 MiB RSS). [Site](https://gronify.harlo.dev)
+
+**[tonal](https://github.com/1solomonwakhungu/tonal)**<br>
+Editorial tonal UI design system and shadcn-compatible component registry built with 12 flat surface CSS tokens, Soft Pill and Commerce modes, dark theme, and zero heavy dependencies. Powers [harlo.dev](https://harlo.dev). [Site](https://tonal.harlo.dev)
 
 **[discord-cli](https://github.com/1solomonwakhungu/discord-cli)** &nbsp;[![PyPI](https://img.shields.io/pypi/v/discordcli-agents)](https://pypi.org/project/discordcli-agents/) [![downloads](https://img.shields.io/pypi/dm/discordcli-agents)](https://pypi.org/project/discordcli-agents/) [![skills.sh](https://skills.sh/b/1solomonwakhungu/discord-cli)](https://skills.sh/1solomonwakhungu/discord-cli)<br>
 Headless, REST-first Discord CLI (v1.9.0) for scripts, CI, and AI agents with 89 commands across 20 groups, deterministic safety policies, runtime JSON Schemas, human selectors, zero-gateway webhooks, Distroless Docker image, GitHub Action, bundled man page, and installable agent skill.
