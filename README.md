@@ -52,7 +52,7 @@ Production-oriented Go REST API reference: clean layered architecture, JWT auth,
 Streaming gron-style CLI on npm and Homebrew that flattens, searches, and unflattens gigabyte-scale JSON and JSON Lines with low memory use (1000 MiB flattened in 3.63 s at 65 MiB RSS). [Site](https://gronify.harlo.dev)
 
 **[discord-cli](https://github.com/1solomonwakhungu/discord-cli)** &nbsp;[![PyPI](https://img.shields.io/pypi/v/discordcli-agents)](https://pypi.org/project/discordcli-agents/) [![downloads](https://img.shields.io/pypi/dm/discordcli-agents)](https://pypi.org/project/discordcli-agents/) [![skills.sh](https://skills.sh/b/1solomonwakhungu/discord-cli)](https://skills.sh/1solomonwakhungu/discord-cli)<br>
-Headless, single-action Discord CLI for scripts, CI, and AI agents with ~50 commands, JSON output by default, a bundled man page, and an installable agent skill.
+Headless, REST-first Discord CLI (v1.9.0) for scripts, CI, and AI agents with 89 commands across 20 groups, deterministic safety policies, runtime JSON Schemas, human selectors, zero-gateway webhooks, Distroless Docker image, GitHub Action, bundled man page, and installable agent skill.
 
 **[typst-dev-container](https://github.com/1solomonwakhungu/typst-dev-container)** &nbsp;[![stars](https://img.shields.io/github/stars/1solomonwakhungu/typst-dev-container?style=flat)](https://github.com/1solomonwakhungu/typst-dev-container) [![skills.sh](https://skills.sh/b/1solomonwakhungu/typst-dev-container)](https://skills.sh/1solomonwakhungu/typst-dev-container)<br>
 Reproducible Typst + Pandoc + Rust dev container published to `ghcr.io` with automated CI toolchain updates for Docker, VS Code, and Codespaces. [Site](https://typst.harlo.dev)
